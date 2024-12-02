@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: pokeapi-ui
+  name: joot-ui
 spec:
   ports:
     - port: 3000
       targetPort: 3000
   selector:
-    app: pokeapi-ui
+    app: joto-ui

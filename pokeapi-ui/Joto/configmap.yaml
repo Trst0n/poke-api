@@ -1,6 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: Joto-cm
+  name: joto-cm
 data:
   API_URL: "http://localhost:3000"
+  POKEDEX_NAME: "JOHTO"
+  POKEDEX_START_NUMBER: "152"
+  POKEDEX_END_NUMBER: "386"

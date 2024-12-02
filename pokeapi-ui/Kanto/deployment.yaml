@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pokeapi-ui
+  name: kanto-ui
 spec:
   replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: pokeapi-ui
+      app: kanto-ui
   template:
     metadata:
       labels:
-        app: pokeapi-ui
+        app: kanto-ui
     spec:
       containers:
         - image: pokeapi:0.1
-          name: pokeapi-ui
+          name: kanto-ui
           ports:
             - containerPort: 3000
           env:
