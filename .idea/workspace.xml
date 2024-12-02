@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1384516d-eb78-4afb-aa8e-4f5a181672f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/kustomization.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kustomization.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Joto/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Joto/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Joto/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Joto/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Joto/kustomization.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Joto/kustomization.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Joto/minimum-replicas.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Joto/minimum-replicas.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Joto/svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Joto/svc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Kanto/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Kanto/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Kanto/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Kanto/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Kanto/kustomization.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Kanto/kustomization.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Kanto/minimum-replicas.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Kanto/minimum-replicas.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeapi-ui/Kanto/svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pokeapi-ui/base/Kanto/svc.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +68,7 @@
       <recent name="$PROJECT_DIR$/pokeapi-ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pokeapi-ui/base" />
       <recent name="$PROJECT_DIR$/pokeapi-ui" />
     </key>
   </component>
@@ -79,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733146368505</updated>
       <workItem from="1733146369563" duration="214000" />
-      <workItem from="1733147435335" duration="646000" />
+      <workItem from="1733147435335" duration="1049000" />
     </task>
     <servers />
   </component>

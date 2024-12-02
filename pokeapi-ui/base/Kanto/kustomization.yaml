@@ -3,9 +3,9 @@ kind: Kustomization
 
 
 resources:
-  - ./deployment.yaml
+  - deployment.yaml
   - svc.yaml
-  - ./configmap.yaml
+  - configmap.yaml
   -
 #patches:
 #  - path: minimum-replicas.yaml
