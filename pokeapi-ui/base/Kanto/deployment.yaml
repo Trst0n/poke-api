@@ -19,8 +19,18 @@ spec:
           ports:
             - containerPort: 3000
           env:
-            - name : API_URL
+            - name : POKEDEX_NAME
               valueFrom:
                 configMapKeyRef:
-                  key: API_URL
-                  name: pokeapi-cm
+                  key: POKEDEX_NAME
+                  name: kanto-cm
+            - name: POKEDEX_START_NUMBER
+              valueFrom:
+                configMapKeyRef:
+                  key: POKEDEX_START_NUMBER
+                  name: kanto-cm
+            - name: POKEDEX_END_NUMBER
+              valueFrom:
+                configMapKeyRef:
+                  key: POKEDEX_END_NUMBER
+                  name: kanto-cm
